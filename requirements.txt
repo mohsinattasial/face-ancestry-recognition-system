@@ -1,22 +1,9 @@
-# ==============================================================================
-# Project: Face Ancestry Recognition System
-# Author: Mohsin Atta
-# Department: Data Science, The Islamia University of Bahawalpur
-# Description: Core dependencies and required packages for the deep learning
-#              model inference, data processing pipeline, and local UI.
-# ==============================================================================
-
-# --- Core Deep Learning & Computer Vision ---
-tensorflow>=2.15.0
+tensorflow-cpu>=2.15.0
 keras>=3.0.0
-
-# --- Numerical Computation & Data Handling ---
 numpy>=1.23.5
 scipy>=1.10.0
 pandas>=2.0.0
-
-# --- Image Processing Pipeline ---
 pillow>=9.4.0
-
-# Note: 'os' and 'tkinter' are standard built-in Python libraries 
-# and do not require external installation via pip.
+flask>=3.0.0
+gunicorn>=21.2.0
+werkzeug>=3.0.0
